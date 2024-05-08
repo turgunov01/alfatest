@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <a href="/" class="nav-content-item">
+                        <img src="/assets/logo.svg" class="nav-content-image" alt="Logo of the company">
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Услуги</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="/news/" class="nav-link active">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link image">
+                            <img src="/assets/user.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="container">
+                <section class="news">
+                    <div class="news-container">
+                        <h1 class="cards-heading news-heading">
+                            Новости в сфере охраны труда
+                        </h1>
+                        <div class="news-input">
+                            <img src="/assets/search.svg" class="news-search" alt="">
+                            <input type="text" class="news-search-input">
+                        </div>
+                        <div class="news-options">
+                            <div class="news-option">
+                                <p class="news-option-date">1 января 2023 г.</p>
+                                <div class="news-option-column">
+                                    <p class="news-option-topic">
+                                        Изменение в порядке разработки правил и инструкций по ОТ.
+                                    </p>
+                                    <img src="/assets/chevron.svg" class="news-option-navigate" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="news-button">Узнать больше</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer-container">
+                <img src="/assets/logo-alter.svg" class="footer-logo" alt="">
+                <div class="footer-contact">
+                    <a href="mailto:006@kcot.su">Email: 006@kcot.su</a>
+                    <a href="tel:+74232390898">Phone: +7 (423) 239-08-98</a>
+                    <a href="https://instagram.com">
+                        <img src="/assets/instagram.svg" class="footer-media" alt="">
+                        instagram
+                    </a>
+                </div>
+                <hr class="footer-line">
+                <div class="offers">
+                    <p>© 2024 «Альфатест Владивосток»</p>
+                    <p>Политика конфиденциальности</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <style>
+        .nav {
+            box-shadow: 0 1rem 3rem rgb(47, 155, 207, 0.3);
+            height: 8rem;
+        }
+
+        .main,
+        .news {
+            margin-top: 15rem;
+        }
+
+        .news-input {
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: #F1F9FE;
+            color: #444444;
+            border: .1rem solid #BEDBEF;
+            border-radius: 2rem;
+            max-width: 55.5rem;
+            width: 100%;
+            margin: 6rem auto;
+        }
+
+        .news-search {
+            position: absolute;
+            top: 50%;
+            left: 1rem;
+            transform: translateY(-50%);
+        }
+
+        .news-search-input {
+            width: 100%;
+            padding-left: 6rem;
+            height: 6rem;
+            background: unset;
+            border: unset;
+            outline: unset;
+            color: #2F9BCF;
+            font-size: 1.6rem;
+        }
+    </style>
+</body>
+
+</html>
